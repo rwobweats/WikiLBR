@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+body{
+    font-family: 'Asap', sans-serif;
+    background-color: rgb(0, 24, 32); 
+    color: rgb(185, 190, 225); 
+    padding: 20px;
+}
+
+a {
+    color: rgb(45, 40, 85);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    border-bottom: 1px dashed rgb(45, 40, 85); 
+  }
+  
+  a:hover {
+    color: rgb(101, 82, 170);
+    border-bottom: 1px solid rgb(101, 82, 170); 
+  }
